@@ -32,7 +32,7 @@ export default defineConfig({
     // baseURL: 'http://localhost:3000',
 
     /* Run browsers in headed mode locally, headless in CI */
-    headless: false,
+    headless: true,
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
